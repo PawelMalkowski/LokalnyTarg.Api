@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.4" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.0-alpha.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LokalnyTarg.Common\LokalnyTarg.Common.csproj" />
+    <ProjectReference Include="..\LokalnyTarg.IData\LokalnyTarg.IData.csproj" />
+  </ItemGroup>
+
+</Project>
